@@ -1,4 +1,4 @@
-﻿# Shopping-Cart
+﻿# Shopping-Cart - pseudo-code
 
  1. Fetch Product Data: Fetch the product data from a JSON file or API.
  2. Create DOM Elements: For each product, create a new element and append it to the container.
