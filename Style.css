@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(106, 184, 106);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 50px;
+  color: brown;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+  width: auto;
+  background-color: white;
+  /* border-radius: 7px; */
+  border: 10px solid white;
+  border-radius: 7px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  user-select: none;
+}
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.spread {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.heart {
+  position: absolute;
+  display: inline-block;
+  background: url(https://designmodo.static.domains/shopping-cart/twitter-heart.png);
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+
+.add-item {
+  cursor: pointer;
+}
+
+.remove-item {
+  cursor: pointer;
+}
+/* p {
+  display: flex;
+  flex-direction: ;
+} */
